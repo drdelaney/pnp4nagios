@@ -10,7 +10,6 @@ on:
     types:
       - published
 #          echo "TAG=${GITHUB_REF#refs/tags/v}" >> $GITHUB_ENV
-  workflow_dispatch:
 
 jobs:
   distbuild:
